@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bill.css">
+</head>
+<body><div class="ss">  
+    <!-- <div class="kk"> -->
+
+     <h1>Auto Calculate Parking Bill</h1>
+    <form name="frm-pin" method="post" action="pin-index.php">
+        <input type="hidden" name="mode" value="pinRequest"/>
+        <div class="kk">
+         <label for="w3-text-green"><b>Time:   </b></label>
+         <select name="tot_pin_requested" onchange="caculateAmount(this.value)" required>
+        <option value="" disabled selected>choose your option</option>
+    <option value="1">0-1hr</option>
+    <option value="2">2-3hr</option>
+    <option value="3">4-5hr</option>
+    <option value="4">6-7hr</option>
+    <option value="5">8 more</option>
+   </select>
+   <label><b>Total Amount  :      </b></label>
+   <input class="w3-input w3-border" name="tot_amount" id="tot_amount" type="text" readonly>
+</div>
+</div>
+   <script>
+    function caculateAmount(val){
+        let tot_price= val * 100;
+        let divobj=document.getElementById('tot_amount');
+        divobj.value=tot_price;
+    }
+   </script>
+    </form>
+
+
+</body>
+</html>

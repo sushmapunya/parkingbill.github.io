@@ -1,0 +1,60 @@
+/* *{
+ 
+    
+}
+body{
+
+    
+}
+h1{ 
+    
+    color: brown;
+}
+.ss{
+        /* height: 150px; */
+    /* width: 300px; */
+    /* display: flex;
+    border-radius: 3px;
+    background-color: bisque;
+    /* align-items: center; */
+    /* justify-content: center; */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .ss{
+        background-image: url(parking.webp);
+        background-size: cover;
+        height: 1000px;
+        align-items: center;
+
+    }
+    h1{
+        text-align: center;
+        color:wheat;
+
+    }
+    b{
+        text-decoration: underline;
+        color:white;
+        letter-spacing: .5px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .kk{
+        background-image: url(background.jpeg);
+        background-size: cover;
+        height: 50vh;
+        width: 500px;
+        justify-content: center;
+       align-items: center;
+       margin-right: 20px;
+        border: 1px solid white;
+        margin: auto;
+        display: flex;
+        
+    
+    
+    }
+    
